@@ -1,3 +1,10 @@
+<div class="container-fluid"><div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4 shadow" style=" margin-top: 2%;
+margin-bottom: 3%;
+padding-top: 2%;
+padding-bottom: 6rem;
+font-size: larger;   ">  
 
 <div class="card">
   <div class="card-header"style="
@@ -5,9 +12,10 @@
   font-size: large;
   font-style: normal;
   color: floralwhite;">
-  Login Page
+  Login 
   </div>
 </div>
+
 <form>
     <div class="form-group">
       <label for="loginPage">Email address</label>
@@ -19,14 +27,17 @@
       <label for="loginPage">Password</label>
       <input type="password" class="form-control" id="loginPage" placeholder="Password">
     </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="loginPage" [(ngModel)]="upwd">
-      <label class="form-check-label" for="loginPage">Check me out</label>
-    </div>
+   
     <button type="submit" style="
     color: white;
     background: dimgray;
     font-size: larger;
     margin-left: 37%;"
     class="btn btn-primary" (click)="loginFn({'uname':uname,'upwd':upwd})">Submit</button>
+  <div style="margin-top: 1rem" class="jumbtron">*note this is a login service which generate a secure code on the basis of login details and provide protection from hacking for our login users</div>
   </form>
+</div>
+<div class="col-sm-4"></div>
+</div>
+
+</div>
