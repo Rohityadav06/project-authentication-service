@@ -9,7 +9,7 @@ export class LoginService {
     
   }
   authenticate(obj:any):Observable<any>{ 
-   
-    return this._http.post("http://localhost:8080/login",obj);
+   debugger;
+    return this._http.post("http://localhost:8080/login1",obj);
   };
 };
